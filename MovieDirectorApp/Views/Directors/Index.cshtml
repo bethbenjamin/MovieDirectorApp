@@ -11,29 +11,29 @@
 </p>
 
 
-    @foreach (var item in Model)
-    {
-        <div class=" col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <div class="caption">
-                    <h3>
-                        @Html.DisplayFor(modelItem => item.Name)<br />
-                    </h3>
+@foreach (var item in Model)
+{
+    <div class=" col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>
+                    @Html.DisplayFor(modelItem => item.Name)<br />
+                </h3>
 
-                    <p>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.DirectorID }) |
+                <p>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.DirectorID }) |
                     @Html.ActionLink("Details", "Details", new { id = item.DirectorID }) |
                     @Html.ActionLink("Delete", "Delete", new { id = item.DirectorID })
                 </p>
-                </div>
             </div>
         </div>
+    </div>
 
-    }
-
-
-
-
+}
+<table class="table"></table>
 
 
- 
+
+
+
+

@@ -166,6 +166,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\chris.jpg" />
     <Content Include="Content\film-reel-white-seamless-loop_v1_jnsrke__PM.mp4" />
+    <Content Include="Content\film-reel.gif" />
     <Content Include="Content\imdb.jpg" />
     <Content Include="Content\martin.jpg" />
     <Content Include="Content\movie_clapper-t2.jpg" />
