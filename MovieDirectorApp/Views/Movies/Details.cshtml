@@ -6,69 +6,82 @@
 
 <h2>Details</h2>
 
-<div>
-    <h4>Movie</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Director.Name)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Director.Name)
-        </dd>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">@Html.DisplayFor(model => model.Director.Name)</h3>
+    </div>
+    <div class="panel-body">
+        @Html.DisplayNameFor(model => model.Genre.Type)
+      
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Genre.Type)
-        </dt>
-
-        <dd>
+     
             @Html.DisplayFor(model => model.Genre.Type)
         </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.Title)
-        </dt>
+      
 
-        <dd>
+     
             @Html.DisplayFor(model => model.Title)
         </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.ReleaseDate)
-        </dt>
+      
 
-        <dd>
+     
             @Html.DisplayFor(model => model.ReleaseDate)
         </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.RTScore)
-        </dt>
+      
 
-        <dd>
+     
             @Html.DisplayFor(model => model.RTScore)
         </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.Rating)
-        </dt>
+      
 
-        <dd>
+     
             @Html.DisplayFor(model => model.Rating)
         </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.WonAward)
-        </dt>
+      
 
-        <dd>
+     
             @Html.DisplayFor(model => model.WonAward)
         </dd>
 
-    </dl>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MovieID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MovieID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+</div>
+   
+    
+</div>
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+           
+        </dt>
+
+        <dd>
+           
+        </dd>
+
+        <dt>
+        
